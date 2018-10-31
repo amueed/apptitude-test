@@ -5,10 +5,11 @@ var (averageSalary, numberOfEmployee) = await SomeCalculation(0L, 10L, 0L == 10L
 
 Answer: 
 
-As far as, my understanding is concered this function is implemented in a Tuple style i.e it will return multiple values (new feature in c# 7.0).
+As far as, my understanding is concered this function is implemented in a Tuple style i.e it will return multiple values and assigned them to respective
+defined variables (new feature in c# 7.0).
 
-3 arguments are passed to function:
+3 arguments are being passed to function:
 
-1st: 0L (as long)
-2nd 10L (as long)
+1st: 0L ==> passed 0 as long)
+2nd 10L ==> passed 10 as long
 3rd: 0L == 10L ==> it will be evaluated as 'false'

@@ -16,6 +16,7 @@ namespace SumBiggestNeighbor
             int prev = arr[0];
             int max = 1;
             int count = 1;
+
             //find biggest repeated combo
             for (int i = 0; i < arr.Length; i++)
             {
@@ -26,6 +27,10 @@ namespace SumBiggestNeighbor
             }
 
             Console.WriteLine("Max Repeated: {0}", max);
+
+            //M-1, remove less than m-1
+
+            //sum max neighbor
         }
     }
 }
