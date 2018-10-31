@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apptitude-test", "apptitude-test\apptitude-test.csproj", "{F57C201A-88B1-4179-BF7D-0E1022085B5F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Sum of Biggest Neighbor", "1-Sum of Biggest Neighbor", "{3D1992DF-F871-4C9B-88C5-51CA2268EA88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-User Class", "2-User Class", "{8C1DD480-95C7-470F-BBD1-10CA401A32E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-John the Robot", "3-John the Robot", "{6F49E597-9190-42F7-B1A0-E8878AE06679}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Alexa Settings", "4-Alexa Settings", "{937D8208-7D9F-4AFF-9D48-2CBC1B8F7EA5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5- Method Signature", "5- Method Signature", "{54FD66A6-7D56-4294-AC55-EC03E6526464}"
+	ProjectSection(SolutionItems) = preProject
+		MethodSignature.txt = MethodSignature.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserClass", "UserClass\UserClass.csproj", "{D35774EB-4BE1-42BE-B213-63F5478B474F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JohnRobot", "JohnRobot\JohnRobot.csproj", "{0979EB59-CC33-4945-AB22-A02A9464C0AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlexaSettings", "AlexaSettings\AlexaSettings.csproj", "{0F9AD91E-D2EC-46C8-8575-E0C2991BCB75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumBiggestNeighbor", "SumBiggestNeighbor\SumBiggestNeighbor.csproj", "{771454B6-651F-42D6-9C3C-AAEFB35E6723}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F57C201A-88B1-4179-BF7D-0E1022085B5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F57C201A-88B1-4179-BF7D-0E1022085B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F57C201A-88B1-4179-BF7D-0E1022085B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F57C201A-88B1-4179-BF7D-0E1022085B5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D35774EB-4BE1-42BE-B213-63F5478B474F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D35774EB-4BE1-42BE-B213-63F5478B474F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D35774EB-4BE1-42BE-B213-63F5478B474F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D35774EB-4BE1-42BE-B213-63F5478B474F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0979EB59-CC33-4945-AB22-A02A9464C0AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0979EB59-CC33-4945-AB22-A02A9464C0AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0979EB59-CC33-4945-AB22-A02A9464C0AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0979EB59-CC33-4945-AB22-A02A9464C0AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F9AD91E-D2EC-46C8-8575-E0C2991BCB75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F9AD91E-D2EC-46C8-8575-E0C2991BCB75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F9AD91E-D2EC-46C8-8575-E0C2991BCB75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F9AD91E-D2EC-46C8-8575-E0C2991BCB75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{771454B6-651F-42D6-9C3C-AAEFB35E6723}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{771454B6-651F-42D6-9C3C-AAEFB35E6723}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{771454B6-651F-42D6-9C3C-AAEFB35E6723}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{771454B6-651F-42D6-9C3C-AAEFB35E6723}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D35774EB-4BE1-42BE-B213-63F5478B474F} = {8C1DD480-95C7-470F-BBD1-10CA401A32E6}
+		{0979EB59-CC33-4945-AB22-A02A9464C0AC} = {6F49E597-9190-42F7-B1A0-E8878AE06679}
+		{0F9AD91E-D2EC-46C8-8575-E0C2991BCB75} = {937D8208-7D9F-4AFF-9D48-2CBC1B8F7EA5}
+		{771454B6-651F-42D6-9C3C-AAEFB35E6723} = {3D1992DF-F871-4C9B-88C5-51CA2268EA88}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B78897B-613D-4AC9-9036-232EC2B53D7C}
+	EndGlobalSection
+EndGlobal
